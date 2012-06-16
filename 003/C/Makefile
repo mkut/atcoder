@@ -8,7 +8,14 @@
 ## project settings
 TARGET = main
 SOURCES = haskell.hs
-MILIBS = IO Contest
+MILIBS = \
+	IO \
+	Contest \
+	Data/STRef \
+	Data/Heap/ST \
+	Data/Map/ST \
+	Data/Graph/Grid \
+	Algorithm/Dijkstra
 
 ## command settings
 HC = ghc
