@@ -1,2 +1,2 @@
-in.txt
-ans.txt
+*.o
+*.hi
